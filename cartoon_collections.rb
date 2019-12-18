@@ -1,4 +1,8 @@
-def roll_call_dwarves# code an argument here
+require"pry"
+def roll_call_dwarves(dwarves)
+ 
+ binding.pry
+  # code an argument here
   # Your code here
 end
 
@@ -12,5 +16,5 @@ end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+ # cheese_types = ["cheddar", "gouda", "camembert"]
 end
